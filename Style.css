@@ -13,3 +13,22 @@
   margin-left: 100px;
   margin-right: 700px;
 }
+
+.carousel-item {
+position: relative;
+z-index: 0;
+background-color:white;
+height: 100%;
+width: 100%;
+}
+
+
+
+#Layer2 {
+position: absolute;
+z-index: 1;
+background-color: #00FFFFFF;
+height: 100%;
+width: 100%;
+
+}
