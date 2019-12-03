@@ -9,7 +9,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+  <link rel="stylesheet" href="Style.css">
   </head>
 
   <body>
@@ -17,23 +17,34 @@
     <!-- Image and text -->
 
 
-<nav class="navbar sticky-top navbar-light bg-light">
-  <a class="navbar-brand" href="#">
-    <img src="Images/Logo.jpg" width="150" height="55" class="d-inline-block align-mid" alt="">
-  </a>
+    <nav class="site-header sticky-top py-1">
+      <div class="container d-flex align-items-center flex-column flex-md-row justify-content-lg-around" id="Header">
+        <a class="py-2" href="Index.html" >
+          <img src="Images/stopwatch.jpg" width="28" height="26.75"
+        </a>
+        <a class="py-2 d-none d-md-inline-block" href="Index.html" style="color:white" >Home</a>
+        <a class="py-2 d-none d-md-inline-block" href="Shop.html" style="color:white">Shop</a>
+        <a class="py-2 d-none d-md-inline-block" href="#" style="color:white">Contact Us</a>
+      </div>
+    </nav>
 
-      <a class="navbar-brand" href="#">Navbar</a>
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+  <div class="col-md-5 p-lg-5 mx-auto my-5">
+    <h1 class="display-4 font-weight-normal">Every Second Counts</h1>
+    <p class="lead font-weight-normal">Welcome to Every Second Counts. Make every second count by purchasing some products so you are cool</p>
+    <a class="btn btn-outline-secondary" href="Shop.html">Shop Now</a>
+  </div>
+  <div class="product-device shadow-sm d-none d-md-block"></div>
+  <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+</div>
 
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-          </ul>
 
-</nav>
+
+
+
+
+
+
 
 
     <div class="jumbotron">
