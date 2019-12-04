@@ -46,7 +46,7 @@
   color: white;
 }
 
-button {
+.button {
   font-size: 150%;
 }
 
@@ -55,7 +55,7 @@ button {
 
 }
 
-#button-bar button {
+#button-bar .button {
   margin-left: 2px;
   margin-right: 2px;
 }
@@ -64,4 +64,10 @@ button {
   font-size: 125%;
   color: rgb(30,49,87);
   margin-bottom: 6px;
+}
+
+#ContactForm
+{
+  margin-left:25%;
+  margin-right:25%;
 }
