@@ -16,11 +16,14 @@
 
 .col-md-5.p-lg-5.mx-auto.my-5
 {
-  background-color:white;
+  background-color:lightgrey;
+  border-radius: 50px;
+  opacity:0.8;
   color:black;
+  text-align: center;
 }
 
 .btn
 {
-  background-color: white;
+  background-color: black;
 }
