@@ -29,3 +29,39 @@
 {
   background-color: black;
 }
+
+#button1{
+  background-color: rgb(30,49,87);
+  border-radius: 10px;
+  color: white;
+}
+#button2{
+  background-color: rgb(30,49,87);
+  border-radius: 10px;
+  color: white;
+}
+#button3{
+  background-color: rgb(30,49,87);
+  border-radius: 10px;
+  color: white;
+}
+
+button {
+  font-size: 150%;
+}
+
+#button-bar {
+  text-align: center;
+
+}
+
+#button-bar button {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.explanation {
+  font-size: 125%;
+  color: rgb(30,49,87);
+  margin-bottom: 6px;
+}
